@@ -1,0 +1,6 @@
+{
+  "name": "CutOut Pro - AI Background Remover",
+  "description": "Professional AI-powered background removal and replacement studio with before/after slider, precision refine brushes, e-commerce presets, and batch export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

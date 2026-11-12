@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  cutout-pro:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: cutout-pro-app
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+    restart: unless-stopped
